@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Entry Link",
+  "version": "1.0",
+  "description": "엔트리에서 외부 페이지를 빠르게 이동하세요",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["background.js"]
+    }
+  ]
+}
